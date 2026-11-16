@@ -1,0 +1,14 @@
+:root {
+  --bs-primary-base: #a33f58;
+  --bs-primary-contrast: #ffffff;
+  --bs-primary-focus-ring: #a33f58;
+}
+
+.btn-solid.theme-primary {
+  --bs-btn-bg: #a33f58;
+  --bs-btn-color: #ffffff;
+  --bs-btn-border-color: #a33f58;
+  --bs-btn-hover-bg: #7f3045;
+  --bs-btn-hover-color: #ffffff;
+  --bs-btn-hover-border-color: #7f3045;
+}

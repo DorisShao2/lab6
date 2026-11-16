@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Solo Trip to Koreatown | Home</title>
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <script type="module" src="js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+  <nav class="navbar md:navbar-expand bg-1">
+    <div class="container-fluid">
+
+      <a class="navbar-brand" href="index.html">Koreatown</a>
+
+      <button
+        class="btn-icon navbar-toggler"
+        type="button"
+        data-bs-toggle="drawer"
+        data-bs-target="#navbarDrawer"
+        aria-controls="navbarDrawer"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon" aria-hidden="true"></span>
+      </button>
+
+      <dialog
+        class="drawer drawer-end"
+        tabindex="-1"
+        id="navbarDrawer"
+        aria-labelledby="navbarDrawerLabel">
+
+        <div class="drawer-header">
+          <h2 class="drawer-title" id="navbarDrawerLabel">Menu</h2>
+
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="drawer"
+            aria-label="Close">
+          </button>
+        </div>
+
+        <div class="drawer-body mb-2 md:mb-0">
+          <ul class="nav navbar-nav me-auto">
+
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="index.html">
+                Home
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Explore</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+
+          </ul>
+        </div>
+
+      </dialog>
+    </div>
+  </nav>
+
+  <main class="container mt-5">
+
+    <h1>Solo Trip to Koreatown</h1>
+    <p>A collection of moments from my day in Koreatown.</p>
+
+    <div id="ktownCarousel" class="carousel slide">
+
+      <div class="d-flex justify-content-between align-items-center">
+
+        <h2 class="mb-0">A Day in Koreatown</h2>
+
+        <div>
+          <button
+            class="btn-icon btn-sm"
+            type="button"
+            data-bs-target="#ktownCarousel"
+            data-bs-slide="prev">
+            <span class="carousel-icon-prev" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+
+          <button
+            class="btn-icon btn-sm"
+            type="button"
+            data-bs-target="#ktownCarousel"
+            data-bs-slide="next">
+            <span class="carousel-icon-next" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+      </div>
+
+      <div class="carousel-inner rounded-5">
+
+        <div class="carousel-item active">
+          <img
+            src="images/ktown1.jpeg"
+            class="d-block w-100"
+            alt="A storefront in Koreatown">
+        </div>
+
+        <div class="carousel-item">
+          <img
+            src="images/ktown2.jpeg"
+            class="d-block w-100"
+            alt="A sweet snack being prepared in Koreatown">
+        </div>
+
+        <div class="carousel-item">
+          <img
+            src="images/ktown3.jpeg"
+            class="d-block w-100"
+            alt="Small items displayed in a Koreatown shop">
+        </div>
+
+      </div>
+    </div>
+
+    <h2 class="mt-5">More from My Trip</h2>
+
+    <div class="row g-4">
+
+      <div class="col-12 md:col-6 lg:col-4">
+        <section class="card h-100">
+
+          <img
+            src="images/ktown1.jpeg"
+            class="card-img-top"
+            alt="A storefront in Koreatown">
+
+          <div class="card-body">
+
+            <h3 class="card-title">The Streets</h3>
+
+            <p class="card-text">
+              My trip began with a walk through Koreatown.
+            </p>
+
+            <div class="accordion">
+              <details class="accordion-item">
+                <summary class="accordion-header">Details</summary>
+
+                <div class="accordion-body">
+                  I took my time looking at the streets and shops around me.
+                </div>
+              </details>
+            </div>
+
+            <button
+              type="button"
+              class="btn-solid theme-primary mt-3"
+              data-bs-toggle="dialog"
+              data-bs-target="#dialog1">
+              Read more
+            </button>
+
+            <dialog class="dialog" id="dialog1" aria-labelledby="dialogTitle1">
+
+              <div class="dialog-header">
+                <h4 class="dialog-title" id="dialogTitle1">The Streets</h4>
+
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="dialog"
+                  aria-label="Close">
+                </button>
+              </div>
+
+              <div class="dialog-body">
+                <p>
+                  Walking through the neighbourhood was the start of my day.
+                </p>
+              </div>
+
+              <div class="dialog-footer">
+                <button
+                  type="button"
+                  class="btn-solid theme-primary"
+                  data-bs-dismiss="dialog">
+                  Close
+                </button>
+              </div>
+
+            </dialog>
+          </div>
+
+        </section>
+      </div>
+
+      <div class="col-12 md:col-6 lg:col-4">
+        <section class="card h-100">
+
+          <img
+            src="images/ktown2.jpeg"
+            class="card-img-top"
+            alt="A sweet snack being prepared in Koreatown">
+
+          <div class="card-body">
+
+            <h3 class="card-title">A Sweet Snack</h3>
+
+            <p class="card-text">
+              I stopped for a snack during my walk.
+            </p>
+
+            <div class="accordion">
+              <details class="accordion-item">
+                <summary class="accordion-header">Details</summary>
+
+                <div class="accordion-body">
+                  The snack gave me a little break before I continued exploring.
+                </div>
+              </details>
+            </div>
+
+            <button
+              type="button"
+              class="btn-solid theme-primary mt-3"
+              data-bs-toggle="dialog"
+              data-bs-target="#dialog2">
+              Read more
+            </button>
+
+            <dialog class="dialog" id="dialog2" aria-labelledby="dialogTitle2">
+
+              <div class="dialog-header">
+                <h4 class="dialog-title" id="dialogTitle2">A Sweet Snack</h4>
+
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="dialog"
+                  aria-label="Close">
+                </button>
+              </div>
+
+              <div class="dialog-body">
+                <p>
+                  Trying a sweet snack was one of the treats of the trip.
+                </p>
+              </div>
+
+              <div class="dialog-footer">
+                <button
+                  type="button"
+                  class="btn-solid theme-primary"
+                  data-bs-dismiss="dialog">
+                  Close
+                </button>
+              </div>
+
+            </dialog>
+          </div>
+
+        </section>
+      </div>
+
+      <div class="col-12 md:col-6 lg:col-4">
+        <section class="card h-100">
+
+          <img
+            src="images/ktown3.jpeg"
+            class="card-img-top"
+            alt="Small items displayed in a Koreatown shop">
+
+          <div class="card-body">
+
+            <h3 class="card-title">Little Finds</h3>
+
+            <p class="card-text">
+              I found colourful little things while browsing the shops.
+            </p>
+
+            <div class="accordion">
+              <details class="accordion-item">
+                <summary class="accordion-header">Details</summary>
+
+                <div class="accordion-body">
+                  Looking through small items made the afternoon more fun.
+                </div>
+              </details>
+            </div>
+
+            <button
+              type="button"
+              class="btn-solid theme-primary mt-3"
+              data-bs-toggle="dialog"
+              data-bs-target="#dialog3">
+              Read more
+            </button>
+
+            <dialog class="dialog" id="dialog3" aria-labelledby="dialogTitle3">
+
+              <div class="dialog-header">
+                <h4 class="dialog-title" id="dialogTitle3">Little Finds</h4>
+
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="dialog"
+                  aria-label="Close">
+                </button>
+              </div>
+
+              <div class="dialog-body">
+                <p>I enjoyed seeing the different items in the shops.</p>
+              </div>
+
+              <div class="dialog-footer">
+                <button
+                  type="button"
+                  class="btn-solid theme-primary"
+                  data-bs-dismiss="dialog">
+                  Close
+                </button>
+              </div>
+
+            </dialog>
+          </div>
+
+        </section>
+      </div>
+
+      <div class="col-12 md:col-6 lg:col-4">
+        <section class="card h-100">
+
+          <img
+            src="images/ktown4.jpeg"
+            class="card-img-top"
+            alt="Green plush toys displayed in a Koreatown shop">
+
+          <div class="card-body">
+
+            <h3 class="card-title">Cute Gifts</h3>
+
+            <p class="card-text">
+              There were many cute gifts to look at along the way.
+            </p>
+
+            <div class="accordion">
+              <details class="accordion-item">
+                <summary class="accordion-header">Details</summary>
+
+                <div class="accordion-body">
+                  I stopped to look at the displays and their small details.
+                </div>
+              </details>
+            </div>
+
+            <button
+              type="button"
+              class="btn-solid theme-primary mt-3"
+              data-bs-toggle="dialog"
+              data-bs-target="#dialog4">
+              Read more
+            </button>
+
+            <dialog class="dialog" id="dialog4" aria-labelledby="dialogTitle4">
+
+              <div class="dialog-header">
+                <h4 class="dialog-title" id="dialogTitle4">Cute Gifts</h4>
+
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="dialog"
+                  aria-label="Close">
+                </button>
+              </div>
+
+              <div class="dialog-body">
+                <p>The gift displays added a playful moment to my trip.</p>
+              </div>
+
+              <div class="dialog-footer">
+                <button
+                  type="button"
+                  class="btn-solid theme-primary"
+                  data-bs-dismiss="dialog">
+                  Close
+                </button>
+              </div>
+
+            </dialog>
+          </div>
+
+        </section>
+      </div>
+
+      <div class="col-12 md:col-6 lg:col-4">
+        <section class="card h-100">
+
+          <img
+            src="images/ktown5.jpeg"
+            class="card-img-top"
+            alt="A view down a street in Koreatown">
+
+          <div class="card-body">
+
+            <h3 class="card-title">Another Street View</h3>
+
+            <p class="card-text">
+              I captured another view of the neighbourhood during my walk.
+            </p>
+
+            <div class="accordion">
+              <details class="accordion-item">
+                <summary class="accordion-header">Details</summary>
+
+                <div class="accordion-body">
+                  Walking through Koreatown gave me time to notice the streets around me.
+                </div>
+              </details>
+            </div>
+
+            <button
+              type="button"
+              class="btn-solid theme-primary mt-3"
+              data-bs-toggle="dialog"
+              data-bs-target="#dialog5">
+              Read more
+            </button>
+
+            <dialog class="dialog" id="dialog5" aria-labelledby="dialogTitle5">
+
+              <div class="dialog-header">
+                <h4 class="dialog-title" id="dialogTitle5">Another Street View</h4>
+
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="dialog"
+                  aria-label="Close">
+                </button>
+              </div>
+
+              <div class="dialog-body">
+                <p>This photograph captures another moment from my walk.</p>
+              </div>
+
+              <div class="dialog-footer">
+                <button
+                  type="button"
+                  class="btn-solid theme-primary"
+                  data-bs-dismiss="dialog">
+                  Close
+                </button>
+              </div>
+
+            </dialog>
+          </div>
+
+        </section>
+      </div>
+
+      <div class="col-12 md:col-6 lg:col-4">
+        <section class="card h-100">
+
+          <img
+            src="images/ktown6.jpeg"
+            class="card-img-top"
+            alt="Food cooking on a Korean barbecue grill">
+
+          <div class="card-body">
+
+            <h3 class="card-title">A Meal to Remember</h3>
+
+            <p class="card-text">
+              I ended my trip with a meal in Koreatown.
+            </p>
+
+            <div class="accordion">
+              <details class="accordion-item">
+                <summary class="accordion-header">Details</summary>
+
+                <div class="accordion-body">
+                  It was a relaxing way to finish a day of exploring.
+                </div>
+              </details>
+            </div>
+
+            <button
+              type="button"
+              class="btn-solid theme-primary mt-3"
+              data-bs-toggle="dialog"
+              data-bs-target="#dialog6">
+              Read more
+            </button>
+
+            <dialog class="dialog" id="dialog6" aria-labelledby="dialogTitle6">
+
+              <div class="dialog-header">
+                <h4 class="dialog-title" id="dialogTitle6">A Meal to Remember</h4>
+
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="dialog"
+                  aria-label="Close">
+                </button>
+              </div>
+
+              <div class="dialog-body">
+                <p>
+                  After walking and shopping, I enjoyed sitting down for a meal.
+                </p>
+              </div>
+
+              <div class="dialog-footer">
+                <button
+                  type="button"
+                  class="btn-solid theme-primary"
+                  data-bs-dismiss="dialog">
+                  Close
+                </button>
+              </div>
+
+            </dialog>
+          </div>
+
+        </section>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="container mt-5">
+    <p class="p-3 bg-1 text-center">
+      Solo Trip to Koreatown | Doris
+    </p>
+  </footer>
+
+</body>
+</html>
